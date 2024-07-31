@@ -68,19 +68,19 @@ def menu_info():
                     print("***********************************************")
                     print("ESTA ES LA INFORMACION POR EL NOMBRE DE LA CIUDAD ")
                     print("***********************************************")
-                    Buscar_ciudad_nombre()
+                    #buscar_ciudad_nombre()
                 elif opc == 2 :
                     clear_screen()
                     print("***********************************************")
                     print("ESTA ES LA INFORMACION POR EL PAIS ")
                     print("***********************************************")
-                    buscar_ciudad_pais()
+                    #buscar_ciudad_pais()
                 elif opc== 3:
                     clear_screen()
                     print("***********************************************")
                     print("ESTA ES LA INFORMACION POR EL CODIGO POSTAL ")
                     print("***********************************************")
-                    buscar_ciudad_codigo()
+                    #buscar_ciudad_codigo()
                      
 
 
