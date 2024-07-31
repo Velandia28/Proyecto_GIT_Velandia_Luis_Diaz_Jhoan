@@ -47,11 +47,10 @@ La carpeta principal contiene todos los archivos necesarios para su correcta eje
 
 Toda contribución es bien recibida y agradecemos el apoyo. Para contribuir, sigue estos pasos:
 
-1. Haz un fork del proyecto.
-2. Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
-3. Realiza tus cambios y haz un commit (git commit -m 'Añadir nueva funcionalidad').
-4. Envía tus cambios al repositorio (git push origin feature/nueva-funcionalidad).
-5. Crea una solicitud de extracción (Pull Request).
+1. Haz un clone  del proyecto.
+2. Crea una nueva rama para nuevas funcionalidades a implementar.
+3. Realiza tus cambios y haz un conventional commit para visualizar los aportes al proyecto.
+4. Envía tus cambios al repositorio (git push).
 
 ## Licencia
 
