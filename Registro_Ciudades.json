@@ -1,0 +1,20 @@
+{
+    "1": {
+        "Nombre": "bucaramanga",
+        "Poblacion": "1000000",
+        "Pais": "colombia",
+        "Codigo Postal": "1"
+    },
+    "2": {
+        "Nombre": "medellin",
+        "Poblacion": "2000000",
+        "Pais": "colombia",
+        "Codigo Postal": "2"
+    },
+    "3": {
+        "Nombre": "buenos aires",
+        "Poblacion": "3000000",
+        "Pais": "argentina",
+        "Codigo Postal": "3"
+    }
+}
