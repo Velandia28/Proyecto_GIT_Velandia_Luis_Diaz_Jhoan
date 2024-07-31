@@ -20,23 +20,23 @@ Para ejecutar este proyecto localmente, sigue los siguientes pasos:
 
 ## Uso
 
-Se debe ejecutar el programa en Visual estudio y asignar la opcion de registrar un 🚀 Camper (estudiante), 👨‍🏫 Registrar un docente, luego se debe aprobar el Camper como estudiante para poder ser asignado a un aula y asignar un docente al aula.
-Ya se cuentan con unas Rutas predefinidas, si se desea modificar la informacion, se debe realizar el proceso desde coordinacion, la ruta es asignada al aula y cada aula tiene un maximo de 33 estudiantes.
-Una vez asignada la ruta al aula los estudiantes pueden ser ingresados al aula.
-Ya se cuenta con datos de prueba para que el programa se puede ejecutar en cualquier funcion sin problema.
+Se debe ejecutar el programa en Visual estudio y asignar la opcion de registrar una 🚀 ciudad , 👨‍🏫 Registrar los datos de la ciudad como lo es la poblacion estimada, el pais, el codigo postal. 
+
+Ya se cuentan registradas las ciudades, si desea  modificar la informacion, se debe realizar el proceso digitando el codigo postal el cual funciona como identificador, habilitando los campos de pais, poblacion estimada y nombre de la ciudad para poder ser editado segun la necesidad del caso.
+
+Ya se cuenta con datos de prueba para que el programa se puede ejecutar en cualquier funcion y corregir los problemas que pueda presentar.
 
 > [!IMPORTANT]
-> Si un estudiante es marcado como retirado no podra ser asignado a un salon y las notas no podran asignarse.
-> Si desea cambiar la ruta de un estudiante debe removerlo del aula.
-> Si cambia la ruta del aula todos los estudiantes seran removidos del aula.
+> esta es una fase temprana del proyecto la cual esta sujeta a presentar errores de funcionamiento dentro del proyecto
+
 
 ## Estructura del Proyecto
 
 La carpeta principal contiene todos los archivos necesarios para su correcta ejecucion. Adicionalmente, cuenta con un archivo Json como biblioteca con datos de prueba.
 
 > [!WARNING]
-> Algunas funciones se encuentran en mantenimiento.
-> La asignacion de notas se esta manejando por el equipo especializado.
+> Algunas funciones se encuentran en pruebas.
+
 
 ## Tecnologías Utilizadas
 
@@ -55,24 +55,6 @@ Toda contribución es bien recibida y agradecemos el apoyo. Para contribuir, sig
 
 ## Licencia
 
-MIT License
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-## Autor 😸
+## Autores 😸
+📔 Jhoan Sebastian Diaz Ardila
+📔 Luis Felipe Velandia Llanes
