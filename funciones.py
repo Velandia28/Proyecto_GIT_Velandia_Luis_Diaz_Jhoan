@@ -70,3 +70,43 @@ def registrar_Ciudad():
             continue 
         
 
+
+def modificar_ciudad():
+    clear_screen()
+    while True:
+        try:
+            Archivo="Registro_Ciudades.json"
+            Gestion= crear_leer_json(Archivo)
+            print("Se va a modificar la informacion de la ciudad pero no su codigo postal")
+            print("¿Desea continuar?")
+            for i in desicion:
+                print(i)
+            opc1=int(input("--> "))
+            if opc1==2:
+                print("Saliendo...")  
+                print("~"*100) 
+                return
+            elif opc1==1:
+                postal=input("Escriba el codigo postal de la ciudad:\n-> ")
+                
+
+
+
+
+
+
+
+
+            else:
+                print("Digite un valor correcto")
+                print("~"*100) 
+                continue
+            
+
+
+        except ValueError:
+            print("Digite un valor correcto")
+            print("~"*100) 
+            continue 
+
+
