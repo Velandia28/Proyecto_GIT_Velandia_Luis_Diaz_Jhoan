@@ -219,7 +219,102 @@ def modificar_ciudad():
             continue 
 
 
+def buscar_ciudad_codigo():
+    clear_screen()
+    while True:
+        try:
+            Archivo="Registro_Ciudades.json"
+            Gestion= crear_leer_json(Archivo)
+            postal=input("Escriba el codigo postal de la ciudad:\n-> ")
+            if Gestion.get(postal,None)==None:
+                print("Error la ciudad no existe aun.")
+                continue
+            else:
+                print("~"*100)
+                print("La ciudad es: ",Gestion.get(postal))
+                print("~"*100)
+        except:
+            print("hubo un error al mostrar las tarjetas del cliente")
+            continue
 
 
 
-modificar_ciudad()
+def buscar_ciudad_nombre():
+    clear_screen()
+    while True:
+        try:
+            Archivo="Registro_Ciudades.json"
+            Gestion= crear_leer_json(Archivo)
+            nombre=input("Escriba el nombre de la ciudad:\n-> ").strip().lower()
+            print("~"*100)
+            for llave, ciudad_info in Gestion.items():
+                if ciudad_info.get("Nombre")==nombre:
+                    print(f"Ciudad: {ciudad_info.get('Nombre')}")
+                    print(f"Codigo Postal: {llave}")
+                    print(f"Pais: {ciudad_info.get('Pais')}")
+                    print(f"Poblacion: {ciudad_info.get('Poblacion')}")
+                else:
+                    print("Ciudad no encontrada")
+                    continue
+            print("~"*100)
+            print("desea continuar con la consulta por nombre?")
+            for i in desicion:
+                print(i)
+            opc1=int(input("--> "))
+            if opc1==2:
+                print("Saliendo...")  
+                print("~"*100) 
+                return
+            elif opc1==1:
+                continue
+            else:
+                print("Digite un valor correcto")
+        except:
+            print("hubo un error al mostrar las tarjetas del cliente")
+            continue
+
+
+def buscar_ciudad_pais():
+    clear_screen()
+    while True:
+        try:
+            Archivo="Registro_Ciudades.json"
+            Gestion= crear_leer_json(Archivo)
+            pais=input("Escriba el nombre del pais:\n-> ").strip().lower()
+            print("~"*100)
+            for llave, ciudad_info in Gestion.items():
+                if ciudad_info.get("Pais")==pais:
+                    print(f"Ciudad: {ciudad_info.get('Nombre')}")
+                    print(f"Codigo Postal: {llave}")
+                    print(f"Pais: {ciudad_info.get('Pais')}")
+                    print(f"Poblacion: {ciudad_info.get('Poblacion')}")
+                    print("~"*100)
+                else:
+                    print("Ciudad no encontrada")
+                    continue
+            print("~"*100)
+            print("desea continuar con la consulta por pais?")
+            for i in desicion:
+                print(i)
+            opc1=int(input("--> "))
+            if opc1==2:
+                print("Saliendo...")  
+                print("~"*100) 
+                return
+            elif opc1==1:
+                continue
+            else:
+                print("Digite un valor correcto")
+        except:
+            print("hubo un error al mostrar las tarjetas del cliente")
+            continue
+
+
+
+
+
+
+
+
+
+
