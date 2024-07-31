@@ -3,6 +3,8 @@ import json
 import pathlib
 from leer_json import *
 from funciones import *
+
+
 menu_principal1 =("1. REGISTRAR CIUDAD", "2. MODIFICAR CIUDAD","3. MOSTRAR INFORMACION","4. SALIR DEL APLICATIVO")
 
 def menu_principal():
@@ -30,11 +32,11 @@ def menu_principal():
                     print("***********************************************")
                     modificar_ciudad()
                 elif opcion == 3:
-                    #menu_informacion
                     clear_screen()
                     print("***********************************************")
                     print("INFORMACION")
                     print("***********************************************")
+                    menu_info()
                 elif opcion == 4:
                     clear_screen()
                     print("*****************************")
@@ -68,22 +70,25 @@ def menu_info():
                     print("***********************************************")
                     print("ESTA ES LA INFORMACION POR EL NOMBRE DE LA CIUDAD ")
                     print("***********************************************")
-                    #buscar_ciudad_nombre()
+                    buscar_ciudad_nombre()
                 elif opc == 2 :
                     clear_screen()
                     print("***********************************************")
                     print("ESTA ES LA INFORMACION POR EL PAIS ")
                     print("***********************************************")
-                    #buscar_ciudad_pais()
+                    buscar_ciudad_pais()
                 elif opc== 3:
                     clear_screen()
                     print("***********************************************")
                     print("ESTA ES LA INFORMACION POR EL CODIGO POSTAL ")
                     print("***********************************************")
-                    #buscar_ciudad_codigo()
-                     
-
-
+                    buscar_ciudad_codigo()
+                elif opc == 4:
+                    print("VOLVIENDO AL MENU ANTERIOR")
+                    return
+            except ValueError:
+                print("Por favor ingrese un número válido.")
+                continue 
 
 menu_principal()
 menu_info()
