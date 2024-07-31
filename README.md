@@ -52,8 +52,6 @@ Toda contribución es bien recibida y agradecemos el apoyo. Para contribuir, sig
 3. Realiza tus cambios y haz un conventional commit para visualizar los aportes al proyecto.
 4. Envía tus cambios al repositorio (git push).
 
-## Licencia
-
 ## Autores 😸
 📔 Jhoan Sebastian Diaz Ardila
 📔 Luis Felipe Velandia Llanes
