@@ -11,7 +11,7 @@ El programa cuenta con las funciones de registrar ciudad, la funcion   de editar
 
 Para ejecutar este proyecto localmente, sigue los siguientes pasos:
 
-1. Clona este repositorio: [Presiona aqui]([https://github.com/Velandia28/Proyecto_GIT_Velandia_Luis_Diaz_Jhoan])
+1. Clona este repositorio: [Presiona aqui](https://github.com/Velandia28/Proyecto_GIT_Velandia_Luis_Diaz_Jhoan)
 
 2. Navega al directorio del proyecto:
    cd Proyecto_GIT_Velandia_Luis_Diaz_Jhoan
